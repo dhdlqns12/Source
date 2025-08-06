@@ -79,29 +79,29 @@
 //    }
 //}
 
-namespace B5_10869
-{
-    class Program
-    {
-        static void Main()
-        {
-            string s = Console.ReadLine();
-            string[] ss = s.Split();
+//namespace B5_10869
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            string s = Console.ReadLine();
+//            string[] ss = s.Split();
 
-            int a = int.Parse(ss[0]);
-            int b = int.Parse(ss[1]);
+//            int a = int.Parse(ss[0]);
+//            int b = int.Parse(ss[1]);
 
-            int sum = a + b;
-            int dif = a - b;
-            int mul = a * b;
-            int div = a / b;
-            int mod = a % b;
+//            int sum = a + b;
+//            int dif = a - b;
+//            int mul = a * b;
+//            int div = a / b;
+//            int mod = a % b;
 
-            Console.WriteLine(sum);
-            Console.WriteLine(dif);
-            Console.WriteLine(mul);
-            Console.WriteLine(div);
-            Console.WriteLine(mod);
-        }
-    }
-}
+//            Console.WriteLine(sum);
+//            Console.WriteLine(dif);
+//            Console.WriteLine(mul);
+//            Console.WriteLine(div);
+//            Console.WriteLine(mod);
+//        }
+//    }
+//}
