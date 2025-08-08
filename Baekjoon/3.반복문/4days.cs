@@ -126,3 +126,28 @@ using System.IO;
 //        }
 //    }
 //}
+
+//namespace B5_11021
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            StreamReader reader = new StreamReader(Console.OpenStandardInput());
+//            StringBuilder writer = new StringBuilder();
+
+//            int input = int.Parse(reader.ReadLine());
+
+//            for(int i = 1; i<=input; i++)
+//            {
+//                string input_num = reader.ReadLine();
+//                string[] num = input_num.Split(' ');
+//                int a = int.Parse(num[0]);
+//                int b = int.Parse(num[1]);
+
+//                writer.AppendLine($"Case #{i}: { a + b}");
+//            }
+//            Console.Write(writer.ToString());
+//        }
+//    }
+//}
