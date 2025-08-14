@@ -42,3 +42,26 @@ using System.Threading.Tasks.Dataflow;
 //        }
 //    }
 //}
+
+//namespace B1_1546
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            int n = int.Parse(Console.ReadLine());
+//            int[] num = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+
+//            int max = num.Max();
+//            float sum = 0; ;
+
+//            for(int i = 0; i<n;i++)
+//            {
+//                sum += (float)num[i] / max * 100;
+//            }
+
+//            float average = sum /n;
+//            Console.WriteLine(average);
+//        }
+//    }
+//}
